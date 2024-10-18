@@ -16,8 +16,8 @@ def login(driver):
     usr = driver.find_element(By.ID, 'user_email')
     pwd = driver.find_element(By.ID, 'user_password')
     login_btn = driver.find_element(By.NAME, 'commit')
-    usr.send_keys('mauriciojmj10@gmail.com')
-    pwd.send_keys('AugyMarie@0203')
+    usr.send_keys() #Email
+    pwd.send_keys() #Password
     login_btn.click()
     return
 
